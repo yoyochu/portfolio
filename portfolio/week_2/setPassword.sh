@@ -11,4 +11,4 @@ read -sp "Enter Password:" Password
 #echo $Password > secret.txt
 #storing the password into secret.txt in a hash
 echo $Password | sha256sum > secret.txt
-exit 0
+exit 20
