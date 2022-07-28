@@ -6,12 +6,13 @@ GREEN='\033[32m'
 
 #user to enter password
 echo -e "${RED}Enter Password:${NORMAL} "
-read -s Password
-#decrypting the .lck file 
-PASS=`cat /home/yochu/scripts/portfolio/week_2/secret.lck | openssl enc -base64 -d -aes-256-cbc -nosalt -pass pass:garbageKey
-`
+read -s Password 
+echo $Password | sha256sum > input.txt
+PASS1=`cat /home/yochu/scripts/portfolio/week_2/secret.txt`
+PASS2=`cat /home/yochu/scripts/portfolio/week_2/input.txt`
+
 #comparing the password entered against the decrypted password.
-if [ "$Password" == "$PASS" ]; then 
+if [[ "$PASS1" == "$PASS2" ]];  then
 #If the user’s password is correct, print “Access Granted” and quit with the exit code 0.
 echo -e "${GREEN} Access Granted ${NORMAL}"
 exit 0 
