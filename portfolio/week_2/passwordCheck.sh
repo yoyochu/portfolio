@@ -6,8 +6,9 @@ GREEN='\033[32m'
 
 #user to enter password
 echo -e "${RED}Enter Password:${NORMAL} "
-read -s Password 
-echo $Password | sha256sum > input.txt
+read -s Password1 
+echo $Password1 | sha256sum > /home/yochu/scripts/portfolio/week_2/input.txt
+
 PASS1=`cat /home/yochu/scripts/portfolio/week_2/secret.txt`
 PASS2=`cat /home/yochu/scripts/portfolio/week_2/input.txt`
 

@@ -8,7 +8,7 @@
 #this command is asking for the password from user
 read -sp "Enter Password:" Password
 #storing the password into secret.txt with hash
-echo $Password | sha256sum > secret.txt
+echo $Password | sha256sum > /home/yochu/scripts/portfolio/week_2/secret.txt
 echo
 echo "Password Changed"
-exit 20
+exit 0
