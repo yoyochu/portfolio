@@ -1,4 +1,4 @@
-#! /bin/bash 
+#! /bin/bash
 
 BLACK='\033[30m'
 BLUE='\033[34m'
@@ -10,8 +10,18 @@ BROWN='\033[33m'
 GRAY='\033[01;30m'
 NORMAL='\033[00m'
 
+#getting the real path of file
+full_path=$(realpath $0)
+
+#getting the directory path of file
+dir_path=$(dirname $full_path)
+
+#getting the directory path of file - up 1 level
+dir_1up=$(dirname $dir_path )
+
+
 # running passwordCheck.sh to request user for password and checking password 
-(. /home/yochu/scripts/portfolio/week_2/passwordCheck.sh)
+(. "$dir_1up/week_2/passwordCheck.sh")
 #If password is 
 if [ $? == "0" ]
 then
@@ -27,13 +37,13 @@ echo -e "8. Exit"
 
 read choice;
 case $choice in
-  1) (. /home/yochu/scripts/portfolio/week_2/setPassword.sh);;
-  2) (. /home/yochu/scripts/portfolio/week_2/folderCopier.sh);;
-  3) (. /home/yochu/scripts/portfolio/week_2/setPassword.sh);;
-  4) (. ./calculator.sh);;
-  5) (. ./megafoldermaker.sh);;
-  6) (. ./filenames.sh);;
-  7) (. ./InternetDownloader.sh);;
+  1) (. "$dir_1up/week_2/setPassword.sh");;
+  2) (. "$dir_1up/week_2/week_2/folderCopier.sh");;
+  3) (. "$dir_1up/week_2/setPassword.sh");;
+  4) (. "$dir_path/calculator.sh");;
+  5) (. "$dir_path/megafoldermaker.sh");;
+  6) (. "$dir_path/filenames.sh");;
+  7) (. "$dir_path/InternetDownloader.sh");;
   8) exit 0;;
   *) echo "This option is not available. Please choose a different one.";; 
 esac
