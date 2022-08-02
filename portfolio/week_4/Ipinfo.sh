@@ -1,11 +1,9 @@
 #!/bin/bash 
-#get info about networking from the ifconfig command 
-
+#get info about networking from the ip addresss command 
 net_info="$(ip address)" 
 
 
-#parse out the ip address lines using sed 
-
+#parse out the ip address lines using sed and changed "/" to subnet mask
 addresses=$(echo "$net_info" | sed -n '/inet / { 
 
 s/inet/IP Address:/ 
