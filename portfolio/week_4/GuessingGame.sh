@@ -26,7 +26,7 @@ while (( $aa == 1 )); do
     elif [ $REPLY -gt $Answer ] && [ $REPLY -le 100 ]; then 
     echo "Too High!";
     elif [ $REPLY -eq $Answer ]; then
-    echo "Correct" && exit 0;
+    echo "Right!" && exit 0; #change "Correct" to "Right" in week 5
     else 
     printError "Input must be between $2 and $3";
     fi
