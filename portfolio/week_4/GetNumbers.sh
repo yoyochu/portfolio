@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-#This function prints a given error 
+#This function prints a given error in colour
 
 printError() 
 
@@ -10,7 +10,7 @@ echo -e "\033[31mERROR:\033[0m $1"
 
 } 
 
-#This function will get a value between the 2nd and 3rd arguments 
+#This function will get a value and validates that the number entered is between the 2nd and 3rd arguments 
 getNumber() 
 
 { 
