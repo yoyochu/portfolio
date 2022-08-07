@@ -1,10 +1,10 @@
 #!/bin/bash
 
 #The answer 
-Answer=42
+readonly Answer=42
 
 #loop for game
-aa=1
+loop=1
 
 #This function prints a given error 
 printError() 
@@ -20,7 +20,7 @@ getNumber()
 
 { 
 read -p "$1: "
-while (( $aa == 1 )); do 
+while (( $loop == 1 )); do 
     if [ $REPLY -lt $Answer ] && [ $REPLY -ge 1 ]; then
     echo "Too Low!";
     elif [ $REPLY -gt $Answer ] && [ $REPLY -le 100 ]; then 
