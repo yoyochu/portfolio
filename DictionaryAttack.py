@@ -28,4 +28,3 @@ with open("wordlist.txt", "r") as wordlist:
             print(f"Password has been cracked! It was {word}")
 
             break
-					
