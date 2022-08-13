@@ -7,7 +7,7 @@ import string
 password = "zBlah"
 passwordHash = hashlib.sha256(password.encode("utf-8")).hexdigest()
 
-#Cracking the code with for loop
+#Cracking the code with for loop --
 
 flagg=0
 chars=string.ascii_letters + string.digits
