@@ -26,5 +26,3 @@ for password_length in range(1, 8):
         
 if flagg==0:
     print("password is over 8 characters long")
-
-exit
