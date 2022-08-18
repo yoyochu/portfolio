@@ -21,36 +21,39 @@ dir_1up=$(dirname $dir_path )
 
 
 # running passwordCheck.sh to request user for password and checking password 
-(. "$dir_1up/week_2/passwordCheck.sh")
-#If password is 
-if [ $? == "0" ]
+(. "$dir_path/checkPassword.sh")
+#If password is accurate
+if [ $? != "0" ]
 then
-echo -e "${BLUE}Select an option${NORMAL}"
-echo -e "${CYAN}1. Create a folder${NORMAL}"
-echo -e "${CYAN}2. Copy a folder${NORMAL}"
-echo -e "${CYAN}3. Set a password${NORMAL}"
-echo -e "${CYAN}4. Calculator${NORMAL}"
-echo -e "${CYAN}5. Create Week Folders${NORMAL}"
-echo -e "${CYAN}6. Check Filenames${NORMAL}"
-echo -e "${CYAN}7. Download a File${NORMAL}"
-echo -e "8. Exit"
+echo "See you"
+exit 
+
+else
+
+#selection menu - loops till the user devides to leave remain at main menu
+while [[ $choice != 5 || $choice != 4 || $choice != 3 || $choice != 2 || $choice != 1 ]];
+do
+echo -e "${PURPLE}Welcome to Yolanda's URL downloader${NORMAL}"
+echo -e "${BLUE}Please select an option${NORMAL}"
+echo -e "${CYAN}1. Download URL${NORMAL}"
+echo -e "${CYAN}2. View raw data${NORMAL}"
+echo -e "${CYAN}3. View Data in table format${NORMAL}"
+echo -e "${CYAN}4. Reset Password${NORMAL}"
+echo -e "5. Exit"
 
 read choice;
 case $choice in
-  1) (. "$dir_1up/week_2/setPassword.sh");;
-  2) (. "$dir_1up/week_2/week_2/folderCopier.sh");;
-  3) (. "$dir_1up/week_2/setPassword.sh");;
-  4) (. "$dir_path/calculator.sh");;
-  5) (. "$dir_path/megafoldermaker.sh");;
-  6) (. "$dir_path/filenames.sh");;
-  7) (. "$dir_path/InternetDownloader.sh");;
-  8) exit 0;;
-  *) echo "This option is not available. Please choose a different one.";; 
+  1) (. "$dir_path/Scrape.sh");;
+  2) (cat raw.txt);;
+  3) (. "$dir_path/awk.sh");;
+  4) (. "$dir_path/resetPassword.sh");break;;
+  5) echo "Thanks for using my script, bye" ; exit 0;;
+  *) echo "This option is not available. Please choose a different one." ;; 
 esac
+done
 
-else
-echo "Goodbye"
+
 fi
-exit 0
+
 
 

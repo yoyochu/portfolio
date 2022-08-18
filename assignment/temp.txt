@@ -1,0 +1,250 @@
+1
+Debian Linux
+Debian
+OS
+6681
+2
+Android
+Google
+OS
+4577
+3
+Fedora
+Fedoraproject
+OS
+3451
+4
+Ubuntu Linux
+Canonical
+OS
+3438
+5
+Mac Os X
+Apple
+OS
+3018
+6
+Linux Kernel
+Linux
+OS
+2868
+7
+Windows 10
+Microsoft
+OS
+2847
+8
+Iphone Os
+Apple
+OS
+2685
+9
+Windows Server 2016
+Microsoft
+OS
+2631
+10
+Chrome
+Google
+Application
+2501
+11
+Windows Server 2008
+Microsoft
+OS
+2321
+12
+Windows 7
+Microsoft
+OS
+2174
+13
+Windows Server 2012
+Microsoft
+OS
+2166
+14
+Windows Server 2019
+Microsoft
+OS
+2079
+15
+Windows 8.1
+Microsoft
+OS
+2023
+16
+Firefox
+Mozilla
+Application
+1993
+17
+Windows Rt 8.1
+Microsoft
+OS
+1849
+18
+Enterprise Linux Desktop
+Redhat
+OS
+1673
+19
+Enterprise Linux Server
+Redhat
+OS
+1627
+20
+Enterprise Linux Workstation
+Redhat
+OS
+1588
+21
+Leap
+Opensuse
+OS
+1560
+22
+Tvos
+Apple
+OS
+1363
+23
+Opensuse
+Opensuse
+OS
+1334
+24
+Enterprise Linux
+Redhat
+OS
+1183
+25
+Internet Explorer
+Microsoft
+Application
+1168
+26
+Mysql
+Oracle
+Application
+1156
+27
+Safari
+Apple
+Application
+1142
+28
+Watchos
+Apple
+OS
+1101
+29
+Thunderbird
+Mozilla
+Application
+1038
+30
+Windows Vista
+Microsoft
+OS
+794
+31
+Firefox Esr
+Mozilla
+Application
+777
+32
+Enterprise Linux Server Aus
+Redhat
+OS
+755
+33
+Gitlab
+Gitlab
+Application
+728
+34
+Office
+Microsoft
+Application
+711
+35
+JRE
+Oracle
+Application
+701
+36
+JDK
+Oracle
+Application
+696
+37
+Windows Xp
+Microsoft
+OS
+685
+38
+Seamonkey
+Mozilla
+Application
+680
+39
+PHP
+PHP
+Application
+654
+40
+Oncommand Insight
+Netapp
+Application
+644
+41
+Mac Os X Server
+Apple
+OS
+628
+42
+Enterprise Linux Server Eus
+Redhat
+OS
+626
+43
+Macos
+Apple
+OS
+623
+44
+Imagemagick
+Imagemagick
+Application
+622
+45
+Wireshark
+Wireshark
+Application
+618
+46
+Itunes
+Apple
+Application
+603
+47
+Sunos
+SUN
+OS
+565
+48
+Oncommand Workflow Automation
+Netapp
+Application
+518
+49
+Solaris
+Oracle
+OS
+509
+50
+Enterprise Linux Server Tus
+Redhat
+OS
+507
