@@ -220,7 +220,7 @@ Go to year:
 						<td>
 							OS						</td>
 						<td class="num">
-							<a href="/vulnerability-list/vendor_id-23/product_id-36/Debian-Debian-Linux.html" title="All vulnerabilities related to products of Debian">6681</a>						</td>
+							<a href="/vulnerability-list/vendor_id-23/product_id-36/Debian-Debian-Linux.html" title="All vulnerabilities related to products of Debian">6684</a>						</td>
 					</tr>
 								<tr>
 						<td class="num">
@@ -232,7 +232,7 @@ Go to year:
 						<td>
 							OS						</td>
 						<td class="num">
-							<a href="/vulnerability-list/vendor_id-1224/product_id-19997/Google-Android.html" title="All vulnerabilities related to products of Google">4577</a>						</td>
+							<a href="/vulnerability-list/vendor_id-1224/product_id-19997/Google-Android.html" title="All vulnerabilities related to products of Google">4593</a>						</td>
 					</tr>
 								<tr>
 						<td class="num">
@@ -244,7 +244,7 @@ Go to year:
 						<td>
 							OS						</td>
 						<td class="num">
-							<a href="/vulnerability-list/vendor_id-6924/product_id-16334/Fedoraproject-Fedora.html" title="All vulnerabilities related to products of Fedoraproject">3451</a>						</td>
+							<a href="/vulnerability-list/vendor_id-6924/product_id-16334/Fedoraproject-Fedora.html" title="All vulnerabilities related to products of Fedoraproject">3453</a>						</td>
 					</tr>
 								<tr>
 						<td class="num">
@@ -424,7 +424,7 @@ Go to year:
 						<td>
 							OS						</td>
 						<td class="num">
-							<a href="/vulnerability-list/vendor_id-25/product_id-79/Redhat-Enterprise-Linux-Desktop.html" title="All vulnerabilities related to products of Redhat">1673</a>						</td>
+							<a href="/vulnerability-list/vendor_id-25/product_id-79/Redhat-Enterprise-Linux-Desktop.html" title="All vulnerabilities related to products of Redhat">1675</a>						</td>
 					</tr>
 								<tr>
 						<td class="num">
@@ -436,7 +436,7 @@ Go to year:
 						<td>
 							OS						</td>
 						<td class="num">
-							<a href="/vulnerability-list/vendor_id-25/product_id-24639/Redhat-Enterprise-Linux-Server.html" title="All vulnerabilities related to products of Redhat">1627</a>						</td>
+							<a href="/vulnerability-list/vendor_id-25/product_id-24639/Redhat-Enterprise-Linux-Server.html" title="All vulnerabilities related to products of Redhat">1629</a>						</td>
 					</tr>
 								<tr>
 						<td class="num">
@@ -448,7 +448,7 @@ Go to year:
 						<td>
 							OS						</td>
 						<td class="num">
-							<a href="/vulnerability-list/vendor_id-25/product_id-24640/Redhat-Enterprise-Linux-Workstation.html" title="All vulnerabilities related to products of Redhat">1588</a>						</td>
+							<a href="/vulnerability-list/vendor_id-25/product_id-24640/Redhat-Enterprise-Linux-Workstation.html" title="All vulnerabilities related to products of Redhat">1590</a>						</td>
 					</tr>
 								<tr>
 						<td class="num">
@@ -592,7 +592,7 @@ Go to year:
 						<td>
 							OS						</td>
 						<td class="num">
-							<a href="/vulnerability-list/vendor_id-25/product_id-25166/Redhat-Enterprise-Linux-Server-Aus.html" title="All vulnerabilities related to products of Redhat">755</a>						</td>
+							<a href="/vulnerability-list/vendor_id-25/product_id-25166/Redhat-Enterprise-Linux-Server-Aus.html" title="All vulnerabilities related to products of Redhat">757</a>						</td>
 					</tr>
 								<tr>
 						<td class="num">
@@ -790,6 +790,18 @@ Go to year:
 						<td class="num">
 							49						</td>
 						<td>
+							<a href="/product/34940/Redhat-Enterprise-Linux-Server-Tus.html?vendor_id=25" title="Product Details Redhat Enterprise Linux Server Tus">Enterprise Linux Server Tus</a>						</td>
+						<td>
+							<a href="/vendor/25/Redhat.html" title="Details for Redhat">Redhat</a>						</td>
+						<td>
+							OS						</td>
+						<td class="num">
+							<a href="/vulnerability-list/vendor_id-25/product_id-34940/Redhat-Enterprise-Linux-Server-Tus.html" title="All vulnerabilities related to products of Redhat">509</a>						</td>
+					</tr>
+								<tr>
+						<td class="num">
+							50						</td>
+						<td>
 							<a href="/product/19755/Oracle-Solaris.html?vendor_id=93" title="Product Details Oracle Solaris">Solaris</a>						</td>
 						<td>
 							<a href="/vendor/93/Oracle.html" title="Details for Oracle">Oracle</a>						</td>
@@ -797,18 +809,6 @@ Go to year:
 							OS						</td>
 						<td class="num">
 							<a href="/vulnerability-list/vendor_id-93/product_id-19755/Oracle-Solaris.html" title="All vulnerabilities related to products of Oracle">509</a>						</td>
-					</tr>
-								<tr>
-						<td class="num">
-							50						</td>
-						<td>
-							<a href="/product/34940/Redhat-Enterprise-Linux-Server-Tus.html?vendor_id=25" title="Product Details Redhat Enterprise Linux Server Tus">Enterprise Linux Server Tus</a>						</td>
-						<td>
-							<a href="/vendor/25/Redhat.html" title="Details for Redhat">Redhat</a>						</td>
-						<td>
-							OS						</td>
-						<td class="num">
-							<a href="/vulnerability-list/vendor_id-25/product_id-34940/Redhat-Enterprise-Linux-Server-Tus.html" title="All vulnerabilities related to products of Redhat">507</a>						</td>
 					</tr>
 					</table>
 		</td>
@@ -847,15 +847,15 @@ function vendormout(vendorid){
 		Total Number Of Vulnerabilities Of Top 50 Products By Vendor
 	</caption>
 	<tr>
-							<td valign="bottom" align="center" id="barchart_23" title="Debian" onmouseout="vendormout(23)" onmouseover="vendorhover(23)">6681<br><img src="/img/darkgreen.gif" border="0" width="20" height="93"></td>
-							<td valign="bottom" align="center" id="barchart_1224" title="Google" onmouseout="vendormout(1224)" onmouseover="vendorhover(1224)">7078<br><img src="/img/cherry.gif" border="0" width="20" height="99"></td>
-							<td valign="bottom" align="center" id="barchart_6924" title="Fedoraproject" onmouseout="vendormout(6924)" onmouseover="vendorhover(6924)">3451<br><img src="/img/slateblue.gif" border="0" width="20" height="48"></td>
+							<td valign="bottom" align="center" id="barchart_23" title="Debian" onmouseout="vendormout(23)" onmouseover="vendorhover(23)">6684<br><img src="/img/darkgreen.gif" border="0" width="20" height="93"></td>
+							<td valign="bottom" align="center" id="barchart_1224" title="Google" onmouseout="vendormout(1224)" onmouseover="vendorhover(1224)">7094<br><img src="/img/cherry.gif" border="0" width="20" height="99"></td>
+							<td valign="bottom" align="center" id="barchart_6924" title="Fedoraproject" onmouseout="vendormout(6924)" onmouseover="vendorhover(6924)">3453<br><img src="/img/slateblue.gif" border="0" width="20" height="48"></td>
 							<td valign="bottom" align="center" id="barchart_4781" title="Canonical" onmouseout="vendormout(4781)" onmouseover="vendorhover(4781)">3438<br><img src="/img/olive.gif" border="0" width="20" height="48"></td>
 							<td valign="bottom" align="center" id="barchart_49" title="Apple" onmouseout="vendormout(49)" onmouseover="vendorhover(49)">11163<br><img src="/img/orange.gif" border="0" width="20" height="156"></td>
 							<td valign="bottom" align="center" id="barchart_33" title="Linux" onmouseout="vendormout(33)" onmouseover="vendorhover(33)">2868<br><img src="/img/purple.gif" border="0" width="20" height="40"></td>
 							<td valign="bottom" align="center" id="barchart_26" title="Microsoft" onmouseout="vendormout(26)" onmouseover="vendorhover(26)">21448<br><img src="/img/red.gif" border="0" width="20" height="300"></td>
 							<td valign="bottom" align="center" id="barchart_452" title="Mozilla" onmouseout="vendormout(452)" onmouseover="vendorhover(452)">4488<br><img src="/img/redorange.gif" border="0" width="20" height="63"></td>
-							<td valign="bottom" align="center" id="barchart_25" title="Redhat" onmouseout="vendormout(25)" onmouseover="vendorhover(25)">7959<br><img src="/img/violet.gif" border="0" width="20" height="111"></td>
+							<td valign="bottom" align="center" id="barchart_25" title="Redhat" onmouseout="vendormout(25)" onmouseover="vendorhover(25)">7969<br><img src="/img/violet.gif" border="0" width="20" height="111"></td>
 							<td valign="bottom" align="center" id="barchart_8184" title="Opensuse" onmouseout="vendormout(8184)" onmouseover="vendorhover(8184)">2894<br><img src="/img/blue.gif" border="0" width="20" height="40"></td>
 							<td valign="bottom" align="center" id="barchart_93" title="Oracle" onmouseout="vendormout(93)" onmouseover="vendorhover(93)">3062<br><img src="/img/darkgreen.gif" border="0" width="20" height="43"></td>
 							<td valign="bottom" align="center" id="barchart_13074" title="Gitlab" onmouseout="vendormout(13074)" onmouseover="vendorhover(13074)">728<br><img src="/img/cherry.gif" border="0" width="20" height="10"></td>
@@ -867,7 +867,7 @@ function vendormout(vendorid){
 							<td width="20px">&nbsp;</td>
 				<td valign="top">
 					<table cellpadding="0" cellspacing="0" border="0" width="100%">
-					<tr><td id="barspan_23" onmouseout="vendormout(23)" onmouseover="vendorhover(23)"><a style="text-decoration:none;" title="Go to vendor details" href="/vendor.php?vendor_id=23"><img src="/img/darkgreen.gif" width="11" height="11" border="0"> Debian 6681</a></td></tr><tr><td id="barspan_1224" onmouseout="vendormout(1224)" onmouseover="vendorhover(1224)"><a style="text-decoration:none;" title="Go to vendor details" href="/vendor.php?vendor_id=1224"><img src="/img/cherry.gif" width="11" height="11" border="0"> Google 7078</a></td></tr><tr><td id="barspan_6924" onmouseout="vendormout(6924)" onmouseover="vendorhover(6924)"><a style="text-decoration:none;" title="Go to vendor details" href="/vendor.php?vendor_id=6924"><img src="/img/slateblue.gif" width="11" height="11" border="0"> Fedoraproject 3451</a></td></tr><tr><td id="barspan_4781" onmouseout="vendormout(4781)" onmouseover="vendorhover(4781)"><a style="text-decoration:none;" title="Go to vendor details" href="/vendor.php?vendor_id=4781"><img src="/img/olive.gif" width="11" height="11" border="0"> Canonical 3438</a></td></tr><tr><td id="barspan_49" onmouseout="vendormout(49)" onmouseover="vendorhover(49)"><a style="text-decoration:none;" title="Go to vendor details" href="/vendor.php?vendor_id=49"><img src="/img/orange.gif" width="11" height="11" border="0"> Apple 11163</a></td></tr><tr><td id="barspan_33" onmouseout="vendormout(33)" onmouseover="vendorhover(33)"><a style="text-decoration:none;" title="Go to vendor details" href="/vendor.php?vendor_id=33"><img src="/img/purple.gif" width="11" height="11" border="0"> Linux 2868</a></td></tr><tr><td id="barspan_26" onmouseout="vendormout(26)" onmouseover="vendorhover(26)"><a style="text-decoration:none;" title="Go to vendor details" href="/vendor.php?vendor_id=26"><img src="/img/red.gif" width="11" height="11" border="0"> Microsoft 21448</a></td></tr><tr><td id="barspan_452" onmouseout="vendormout(452)" onmouseover="vendorhover(452)"><a style="text-decoration:none;" title="Go to vendor details" href="/vendor.php?vendor_id=452"><img src="/img/redorange.gif" width="11" height="11" border="0"> Mozilla 4488</a></td></tr><tr><td id="barspan_25" onmouseout="vendormout(25)" onmouseover="vendorhover(25)"><a style="text-decoration:none;" title="Go to vendor details" href="/vendor.php?vendor_id=25"><img src="/img/violet.gif" width="11" height="11" border="0"> Redhat 7959</a></td></tr><tr><td id="barspan_8184" onmouseout="vendormout(8184)" onmouseover="vendorhover(8184)"><a style="text-decoration:none;" title="Go to vendor details" href="/vendor.php?vendor_id=8184"><img src="/img/blue.gif" width="11" height="11" border="0"> Opensuse 2894</a></td></tr><tr><td id="barspan_93" onmouseout="vendormout(93)" onmouseover="vendorhover(93)"><a style="text-decoration:none;" title="Go to vendor details" href="/vendor.php?vendor_id=93"><img src="/img/darkgreen.gif" width="11" height="11" border="0"> Oracle 3062</a></td></tr><tr><td id="barspan_13074" onmouseout="vendormout(13074)" onmouseover="vendorhover(13074)"><a style="text-decoration:none;" title="Go to vendor details" href="/vendor.php?vendor_id=13074"><img src="/img/cherry.gif" width="11" height="11" border="0"> Gitlab 728</a></td></tr><tr><td id="barspan_74" onmouseout="vendormout(74)" onmouseover="vendorhover(74)"><a style="text-decoration:none;" title="Go to vendor details" href="/vendor.php?vendor_id=74"><img src="/img/slateblue.gif" width="11" height="11" border="0"> PHP 654</a></td></tr><tr><td id="barspan_8376" onmouseout="vendormout(8376)" onmouseover="vendorhover(8376)"><a style="text-decoration:none;" title="Go to vendor details" href="/vendor.php?vendor_id=8376"><img src="/img/olive.gif" width="11" height="11" border="0"> Netapp 1162</a></td></tr><tr><td id="barspan_1749" onmouseout="vendormout(1749)" onmouseover="vendorhover(1749)"><a style="text-decoration:none;" title="Go to vendor details" href="/vendor.php?vendor_id=1749"><img src="/img/orange.gif" width="11" height="11" border="0"> Imagemagick 622</a></td></tr><tr><td id="barspan_4861" onmouseout="vendormout(4861)" onmouseover="vendorhover(4861)"><a style="text-decoration:none;" title="Go to vendor details" href="/vendor.php?vendor_id=4861"><img src="/img/purple.gif" width="11" height="11" border="0"> Wireshark 618</a></td></tr><tr><td id="barspan_5" onmouseout="vendormout(5)" onmouseover="vendorhover(5)"><a style="text-decoration:none;" title="Go to vendor details" href="/vendor.php?vendor_id=5"><img src="/img/red.gif" width="11" height="11" border="0"> SUN 565</a></td></tr>					</table>
+					<tr><td id="barspan_23" onmouseout="vendormout(23)" onmouseover="vendorhover(23)"><a style="text-decoration:none;" title="Go to vendor details" href="/vendor.php?vendor_id=23"><img src="/img/darkgreen.gif" width="11" height="11" border="0"> Debian 6684</a></td></tr><tr><td id="barspan_1224" onmouseout="vendormout(1224)" onmouseover="vendorhover(1224)"><a style="text-decoration:none;" title="Go to vendor details" href="/vendor.php?vendor_id=1224"><img src="/img/cherry.gif" width="11" height="11" border="0"> Google 7094</a></td></tr><tr><td id="barspan_6924" onmouseout="vendormout(6924)" onmouseover="vendorhover(6924)"><a style="text-decoration:none;" title="Go to vendor details" href="/vendor.php?vendor_id=6924"><img src="/img/slateblue.gif" width="11" height="11" border="0"> Fedoraproject 3453</a></td></tr><tr><td id="barspan_4781" onmouseout="vendormout(4781)" onmouseover="vendorhover(4781)"><a style="text-decoration:none;" title="Go to vendor details" href="/vendor.php?vendor_id=4781"><img src="/img/olive.gif" width="11" height="11" border="0"> Canonical 3438</a></td></tr><tr><td id="barspan_49" onmouseout="vendormout(49)" onmouseover="vendorhover(49)"><a style="text-decoration:none;" title="Go to vendor details" href="/vendor.php?vendor_id=49"><img src="/img/orange.gif" width="11" height="11" border="0"> Apple 11163</a></td></tr><tr><td id="barspan_33" onmouseout="vendormout(33)" onmouseover="vendorhover(33)"><a style="text-decoration:none;" title="Go to vendor details" href="/vendor.php?vendor_id=33"><img src="/img/purple.gif" width="11" height="11" border="0"> Linux 2868</a></td></tr><tr><td id="barspan_26" onmouseout="vendormout(26)" onmouseover="vendorhover(26)"><a style="text-decoration:none;" title="Go to vendor details" href="/vendor.php?vendor_id=26"><img src="/img/red.gif" width="11" height="11" border="0"> Microsoft 21448</a></td></tr><tr><td id="barspan_452" onmouseout="vendormout(452)" onmouseover="vendorhover(452)"><a style="text-decoration:none;" title="Go to vendor details" href="/vendor.php?vendor_id=452"><img src="/img/redorange.gif" width="11" height="11" border="0"> Mozilla 4488</a></td></tr><tr><td id="barspan_25" onmouseout="vendormout(25)" onmouseover="vendorhover(25)"><a style="text-decoration:none;" title="Go to vendor details" href="/vendor.php?vendor_id=25"><img src="/img/violet.gif" width="11" height="11" border="0"> Redhat 7969</a></td></tr><tr><td id="barspan_8184" onmouseout="vendormout(8184)" onmouseover="vendorhover(8184)"><a style="text-decoration:none;" title="Go to vendor details" href="/vendor.php?vendor_id=8184"><img src="/img/blue.gif" width="11" height="11" border="0"> Opensuse 2894</a></td></tr><tr><td id="barspan_93" onmouseout="vendormout(93)" onmouseover="vendorhover(93)"><a style="text-decoration:none;" title="Go to vendor details" href="/vendor.php?vendor_id=93"><img src="/img/darkgreen.gif" width="11" height="11" border="0"> Oracle 3062</a></td></tr><tr><td id="barspan_13074" onmouseout="vendormout(13074)" onmouseover="vendorhover(13074)"><a style="text-decoration:none;" title="Go to vendor details" href="/vendor.php?vendor_id=13074"><img src="/img/cherry.gif" width="11" height="11" border="0"> Gitlab 728</a></td></tr><tr><td id="barspan_74" onmouseout="vendormout(74)" onmouseover="vendorhover(74)"><a style="text-decoration:none;" title="Go to vendor details" href="/vendor.php?vendor_id=74"><img src="/img/slateblue.gif" width="11" height="11" border="0"> PHP 654</a></td></tr><tr><td id="barspan_8376" onmouseout="vendormout(8376)" onmouseover="vendorhover(8376)"><a style="text-decoration:none;" title="Go to vendor details" href="/vendor.php?vendor_id=8376"><img src="/img/olive.gif" width="11" height="11" border="0"> Netapp 1162</a></td></tr><tr><td id="barspan_1749" onmouseout="vendormout(1749)" onmouseover="vendorhover(1749)"><a style="text-decoration:none;" title="Go to vendor details" href="/vendor.php?vendor_id=1749"><img src="/img/orange.gif" width="11" height="11" border="0"> Imagemagick 622</a></td></tr><tr><td id="barspan_4861" onmouseout="vendormout(4861)" onmouseover="vendorhover(4861)"><a style="text-decoration:none;" title="Go to vendor details" href="/vendor.php?vendor_id=4861"><img src="/img/purple.gif" width="11" height="11" border="0"> Wireshark 618</a></td></tr><tr><td id="barspan_5" onmouseout="vendormout(5)" onmouseover="vendorhover(5)"><a style="text-decoration:none;" title="Go to vendor details" href="/vendor.php?vendor_id=5"><img src="/img/red.gif" width="11" height="11" border="0"> SUN 565</a></td></tr>					</table>
 				</td>
 	</tr>
 </table>

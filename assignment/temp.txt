@@ -2,17 +2,17 @@
 Debian Linux
 Debian
 OS
-6681
+6684
 2
 Android
 Google
 OS
-4577
+4593
 3
 Fedora
 Fedoraproject
 OS
-3451
+3453
 4
 Ubuntu Linux
 Canonical
@@ -87,17 +87,17 @@ OS
 Enterprise Linux Desktop
 Redhat
 OS
-1673
+1675
 19
 Enterprise Linux Server
 Redhat
 OS
-1627
+1629
 20
 Enterprise Linux Workstation
 Redhat
 OS
-1588
+1590
 21
 Leap
 Opensuse
@@ -157,7 +157,7 @@ Application
 Enterprise Linux Server Aus
 Redhat
 OS
-755
+757
 33
 Gitlab
 Gitlab
@@ -239,12 +239,12 @@ Netapp
 Application
 518
 49
+Enterprise Linux Server Tus
+Redhat
+OS
+509
+50
 Solaris
 Oracle
 OS
 509
-50
-Enterprise Linux Server Tus
-Redhat
-OS
-507

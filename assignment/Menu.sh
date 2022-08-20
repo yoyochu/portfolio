@@ -31,7 +31,7 @@ exit
 else
 
 #selection menu - loops till the user devides to leave remain at main menu
-while [[ $choice != 5 || $choice != 4 || $choice != 3 || $choice != 2 || $choice != 1 ]];
+while [[ $choice != 5 ]];
 do
 echo -e "${PURPLE}Welcome to Yolanda's URL downloader${NORMAL}"
 echo -e "${BLUE}Please select an option${NORMAL}"
@@ -43,15 +43,15 @@ echo -e "5. Exit"
 
 read choice;
 case $choice in
-  1) (. "$dir_path/Scrape.sh");;
+  1) (. "$dir_path/Scrape.sh");break;;
   2) (cat raw.txt);;
-  3) (. "$dir_path/awk.sh");;
+  3) (. "$dir_path/awk.sh");break;;
   4) (. "$dir_path/resetPassword.sh");break;;
-  5) echo "Thanks for using my script, bye" ; exit 0;;
+  5) echo "Thanks for using my script, bye"; break 5;;
   *) echo "This option is not available. Please choose a different one." ;; 
 esac
 done
-
+exit 0
 
 fi
 
